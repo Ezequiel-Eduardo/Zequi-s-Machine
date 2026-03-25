@@ -26,9 +26,11 @@ html {
 .container .input {
   display: flex;
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .container .input h1 {
+  margin: 0px;
   font-size: 64px;
   font-weight: 300;
 }
@@ -43,10 +45,44 @@ html {
   border-radius: 2px;
 }
 
-.result.active{
-    border-left: 5px solid salmon;
+.result.active {
+  border-left: 5px solid salmon;
 }
 
 .result span {
   margin-right: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+.operations {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+}
+
+.operator {
+  box-sizing: border-box;
+  width: 24%;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 1px;
+  font-size: 20px;
+  background-color: #333232;
+  border-radius: 5px;
+}
+
+.operator:hover {
+  background-color: #3d3c3c;
+}
+
+.operator.equal{
+  background-color: #F38064;
+  color: black;
+}
+
+.operator.equal:hover{
+  background-color: #f17758;
 }
