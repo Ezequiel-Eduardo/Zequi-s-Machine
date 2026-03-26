@@ -1,4 +1,4 @@
-# Calculadora Financeira - Life Saver
+# Zequi's Machine
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ezequiel-Eduardo/Zequi-s-Machine?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Ezequiel-Eduardo/Zequi-s-Machine?style=for-the-badge)
@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Ezequiel-Eduardo/Zequi-s-Machine?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Ezequiel-Eduardo/Zequi-s-Machine?style=for-the-badge)
 
-<img src="assets/img/print.png" alt="Exemplo imagem">
+<img src="print.png" alt="Exemplo imagem">
 
 > Minha versão da “machine”, uma calculadora para conversão entre bases numéricas (binário, octal, decimal e hexadecimal), com suporte às quatro operações aritméticas básicas. A interface é inspirada na calculadora de programador do Windows 11.
 
