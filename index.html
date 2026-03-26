@@ -14,29 +14,29 @@
       <div class="results">
         <div class="result">
           <span>HEX</span>
-          <div class="hex">10</div>
+          <div class="hex"></div>
         </div>
-        <div class="result">
+        <div class="result active">
           <span>DEC</span>
-          <div class="dec">10</div>
+          <div class="dec"></div>
         </div>
         <div class="result">
           <span>OCT</span>
-          <div class="oct">10</div>
+          <div class="oct"></div>
         </div>
         <div class="result">
           <span>BIN</span>
-          <div class="bin">10</div>
+          <div class="bin"></div>
         </div>
       </div>
       <hr />
       <div class="operations">
         <div class="operator" onclick="digitar('A')"><span>A</span></div>
-        <div class="operator" onclick="digitar('x')"><span>x</span></div>
-        <div class="operator" onclick="digitar('+')"><span>+</span></div>
-        <div class="operator" onclick="digitar('-')"><span>-</span></div>
+        <div class="operator" onclick="multiplicar()"><span>x</span></div>
+        <div class="operator" onclick="somar()"><span>+</span></div>
+        <div class="operator" onclick="subtrair()"><span>-</span></div>
         <div class="operator" onclick="digitar('B')"><span>B</span></div>
-        <div class="operator" onclick="digitar('/')"><span>÷</span></div>
+        <div class="operator" onclick="dividir()"><span>÷</span></div>
         <div class="operator" onclick="digitar('%')"><span>%</span></div>
         <div class="operator" onclick="digitar(9)"><span>9</span></div>
         <div class="operator" onclick="digitar('C')"><span>C</span></div>
@@ -52,8 +52,8 @@
         <div class="operator" onclick="digitar(1)"><span>1</span></div>
         <div class="operator" onclick="digitar(0)"><span>0</span></div>
         <div class="operator" onclick="digitar('F')"><span>F</span></div>
-        <div class="operator" onclick="digitar('CE')"><span>CE</span></div>
-        <div class="operator equal" onclick="digitar('=')"><span>=</span></div>
+        <div class="operator" onclick="apagar()"><span>CE</span></div>
+        <div class="operator equal" onclick="calcular()"><span>=</span></div>
       </div>
     </div>
   </body>
