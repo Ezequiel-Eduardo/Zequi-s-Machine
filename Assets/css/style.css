@@ -38,6 +38,7 @@ html {
 .result {
   display: flex;
   padding: 5px;
+  cursor: pointer;
 }
 
 .result:hover {
@@ -61,6 +62,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   margin-right: -20px;
+  cursor: pointer;
 }
 
 .operator {
@@ -76,6 +78,10 @@ hr {
 
 .operator:hover {
   background-color: #3d3c3c;
+}
+
+.operator:active{
+  background-color: #464545;
 }
 
 .operator.equal{
